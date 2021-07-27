@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+/* -------------------------------------------------------For Desktop Portion (width - 1366 px)--------------------------------------------------------*/
+
+@media (min-width: 1300px) and (max-width: 1700px) {
+  .img {
+    width: 125%;
+    height: 95vh;
+
+    margin: auto;
+    background-image: url("Home/Image.png");
+    background-size: cover;
+    margin-top: 0%;
+
+    position: relative;
+    left: -1.1vh;
+  }
+
+  .slg1 {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 450%;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    width: 35%;
+
+    left: 63%;
+    top: 10rem;
+  }
+
+  .slg2 {
+    color: white;
+    position: absolute;
+    width: 30%;
+    height: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    left: 63%;
+    top: 28.5rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 100%;
+  }
+
+  .btn {
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    width: 11%;
+    height: 7%;
+    left: 63%;
+    top: 34rem;
+    background: #8c30f5;
+    border-radius: 8px;
+  }
+  .btn:hover {
+    background-color: #7f11fd;
+  }
+
+  .btn:active {
+    background-color: #8c30f5;
+
+    transform: translateY(4px);
+  }
+}
+
+/* -------------------------------------------------------For Desktop Portion (width - 1920 px)--------------------------------------------------------*/
+@media (min-width: 1800px) {
+  .img {
+    width: 189vh;
+    height: 96vh;
+
+    margin: auto;
+    background-image: url("Home/Image.png");
+    background-size: cover;
+
+    margin-top: 0%;
+    position: relative;
+    left: -1vh;
+  }
+
+  .slg1 {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 6rem;
+
+    font-weight: 550;
+    line-height: 120%;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    width: 35%;
+    left: 63%;
+    top: 13rem;
+  }
+
+  .slg2 {
+    color: white;
+    position: absolute;
+    height: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    width: 30%;
+    left: 63%;
+    top: 36rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 100%;
+  }
+
+  .btn {
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    width: 11%;
+    height: 7%;
+    left: 63%;
+    top: 41rem;
+    background: #8c30f5;
+    border-radius: 8px;
+  }
+
+  .btn:hover {
+    background-color: #7f11fd;
+  }
+
+  .btn:active {
+    background-color: #8c30f5;
+
+    transform: translateY(4px);
+  }
+
+  @-moz-document url-prefix() {
+    .slg1 {
+      color: white;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 5.4rem;
+      font-style: normal;
+      font-weight: 550;
+      line-height: 130%;
+      letter-spacing: 0em;
+      text-align: left;
+      position: absolute;
+
+      width: 35%;
+      left: 63%;
+      top: 13rem;
+    }
+
+    .slg2 {
+      color: white;
+      position: absolute;
+      width: 30%;
+
+      left: 63%;
+      top: 35.5rem;
+      font-family: "Source Sans Pro", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 100%;
+    }
+
+    .btn {
+      color: white;
+      font-size: 1rem;
+      position: absolute;
+      width: 11%;
+      height: 7%;
+      left: 63%;
+      top: 40rem;
+      background: #8c30f5;
+      border-radius: 8px;
+    }
+
+    .btn:hover {
+      background-color: #7f11fd;
+    }
+
+    .btn:active {
+      background-color: #8c30f5;
+
+      transform: translateY(4px);
+    }
+  }
+}
+
+/* -------------------------------------------------------For mobile portrait----------------------------------------------------------- */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .img {
+    background-image: url("Home/Image.png");
+    width: 102%;
+    height: 45vh;
+    background-size: cover;
+    position: absolute;
+    left: 0vh;
+    top: 7vh;
+  }
+
+  .slg1 {
+    width: 30%;
+    position: absolute;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 550;
+    letter-spacing: 0em;
+    text-align: left;
+    left: 70vw;
+    top: 14vh;
+    line-height: 4vh;
+    color: white;
+  }
+
+  .slg2 {
+    color: white;
+    position: absolute;
+    width: 35%;
+    left: 70vw;
+    top: 27vh;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.5px;
+  }
+
+  .btn {
+    color: white;
+    font-size: 0.3rem;
+    position: absolute;
+    width: 15vw;
+    height: 3vh;
+    left: 70vw;
+    top: 31vh;
+    background: #8c30f5;
+    border-radius: 4px;
+  }
+}
+
+/* -------------------------------------------------------For Mobile Landscape -------------------------------------------------------*/
+
+@media (min-width: 481px) and (max-width: 900px) {
+  .img {
+    margin-top: -10px;
+    background-image: url("Home/Image.png");
+    width: 87em;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .slg1 {
+    width: 200px;
+    display: flex;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 4em;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 70px;
+    left: 14em;
+    top: 3em;
+    line-height: normal;
+  }
+
+  .slg2 {
+    color: white;
+    position: absolute;
+    width: 50%;
+    height: 10px;
+    left: 70em;
+    top: 40em;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 0.8em;
+    line-height: 10px;
+  }
+
+  .btn {
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    width: 7em;
+    height: 2em;
+    left: 37.5em;
+    top: 24em;
+    background: #8c30f5;
+    border-radius: 8px;
+  }
+}

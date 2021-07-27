@@ -1,0 +1,561 @@
+@media  (max-width:1499px) and (min-width:1200px){
+.heading6{
+    position:absolute;left:150px;top:2350px;width:548px;height:128px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:50px;
+}
+.para6{
+    position:absolute;left:150px;top:2500px;width:548px;height:128px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:16px;
+}
+.svg1{
+    position: absolute;left:600px;top:2380px;
+}
+.svg2{
+    position: absolute;left:613px;top:2380px;
+}
+.svg3{
+    position: absolute;left:625px;top:2389px;
+}
+.achieve-fluid{
+    position: absolute;left:660px;top:2345px;
+}
+.achieve-fluid-two{
+    position: absolute;left:660px;top:2390px;
+}
+.svg4{
+    position: absolute;left:600px;top:2500px;
+}
+.svg5{
+    position: absolute;left:609px;top:2500px;
+}
+.svg6{
+    position: absolute;left:625px;top:2500px;
+}
+.achieve-fluid-three{
+    position: absolute;left:660px;top:2460px;
+}
+.achieve-fluid-four{
+    position: absolute;left:660px;top:2505px;
+}
+.svg7{
+    position: absolute;left:900px;top:2375px;
+}
+.svg8{
+    position: absolute;left:900px;top:2383px;
+}
+.svg9{
+    position: absolute;left:910px;top:2400px;
+}
+.achieve-fluid-three1{
+    position: absolute;left:950px;top:2340px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.achieve-fluid-four1{
+    position: absolute;left:950px;top:2390px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+}
+.svg10{
+    position: absolute;left:900px;top:2500px;
+}
+.svg11{
+    position: absolute;left:900px;top:2515px;
+}
+.svg12{
+    position: absolute;left:916px;top:2500px;
+}
+.svg13{
+    position: absolute;left:916px;top:2510px;
+}
+.svg14{
+    position: absolute;left:916px;top:2517px;
+}
+.svg15{
+    position: absolute;left:916px;top:2525px;
+}
+.achieve-fluid-three2{
+    position: absolute;left:960px;top:2460px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.achieve-fluid-four2{
+    position: absolute;left:960px;top:2505px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+}
+.achieve-fluid{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.achieve-fluid-two{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+}
+.achieve-fluid-three{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.achieve-fluid-four{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+}
+}
+
+@media (min-width:1920px){
+    .heading6{
+    position:absolute;left:320px;top:2700px;width:548px;height:128px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:50px;
+}
+.para6{
+    position:absolute;left:320px;top:2850px;width:548px;height:128px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:16px;
+}
+.svg1{
+    position: absolute;left:900px;top:2750px;
+}
+.svg2{
+    position: absolute;left:913px;top:2750px;
+}
+.svg3{
+    position: absolute;left:925px;top:2759px;
+}
+.achieve-fluid{
+    position: absolute;left:960px;top:2710px;
+}
+.achieve-fluid-two{
+    position: absolute;left:960px;top:2755px;
+}
+.svg4{
+    position: absolute;left:900px;top:2850px;
+}
+.svg5{
+    position: absolute;left:909px;top:2850px;
+}
+.svg6{
+    position: absolute;left:925px;top:2850px;
+}
+.achieve-fluid-three{
+    position: absolute;left:960px;top:2810px;
+}
+.achieve-fluid-four{
+    position: absolute;left:960px;top:2855px;
+}
+.svg7{
+    position: absolute;left:1200px;top:2748px;
+}
+.svg8{
+    position: absolute;left:1200px;top:2757px;
+}
+.svg9{
+    position: absolute;left:1210px;top:2775px;
+}
+.achieve-fluid-three1{
+    position: absolute;left:1250px;top:2704px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.achieve-fluid-four1{
+    position: absolute;left:1250px;top:2751px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+}
+.svg10{
+    position: absolute;left:1200px;top:2850px;
+}
+.svg11{
+    position: absolute;left:1200px;top:2868px;
+}
+.svg12{
+    position: absolute;left:1216px;top:2850px;
+}
+.svg13{
+    position: absolute;left:1216px;top:2858px;
+}
+.svg14{
+    position: absolute;left:1216px;top:2869px;
+}
+.svg15{
+    position: absolute;left:1216px;top:2877px;
+}
+.achieve-fluid-three2{
+    position: absolute;left:1260px;top:2807px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.achieve-fluid-four2{
+    position: absolute;left:1260px;top:2850px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+}
+.achieve-fluid{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.achieve-fluid-two{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+}
+.achieve-fluid-three{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.achieve-fluid-four{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+}
+}
+@media  (min-width: 1500px) and (max-width: 1799px){
+    .heading6{
+    position:absolute;left:220px;top:2450px;width:548px;height:128px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:50px;
+}
+.para6{
+    position:absolute;left:220px;top:2600px;width:548px;height:128px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:16px;
+}
+.svg1{
+    position: absolute;left:800px;top:2480px;
+}
+.svg2{
+    position: absolute;left:813px;top:2480px;
+}
+.svg3{
+    position: absolute;left:825px;top:2489px;
+}
+.achieve-fluid{
+    position: absolute;left:860px;top:2445px;
+}
+.achieve-fluid-two{
+    position: absolute;left:860px;top:2485px;
+}
+.svg4{
+    position: absolute;left:800px;top:2580px;
+}
+.svg5{
+    position: absolute;left:809px;top:2580px;
+}
+.svg6{
+    position: absolute;left:825px;top:2580px;
+}
+.achieve-fluid-three{
+    position: absolute;left:860px;top:2550px;
+}
+.achieve-fluid-four{
+    position: absolute;left:860px;top:2590px;
+}
+.svg7{
+    position: absolute;left:1100px;top:2470px;
+}
+.svg8{
+    position: absolute;left:1100px;top:2479px;
+}
+.svg9{
+    position: absolute;left:1110px;top:2497px;
+}
+.achieve-fluid-three1{
+    position: absolute;left:1150px;top:2440px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.achieve-fluid-four1{
+    position: absolute;left:1150px;top:2480px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+}
+.svg10{
+    position: absolute;left:1100px;top:2570px;
+}
+.svg11{
+    position: absolute;left:1100px;top:2588px;
+}
+.svg12{
+    position: absolute;left:1116px;top:2572px;
+}
+.svg13{
+    position: absolute;left:1116px;top:2580px;
+}
+.svg14{
+    position: absolute;left:1116px;top:2590px;
+}
+.svg15{
+    position: absolute;left:1116px;top:2598px;
+}
+.achieve-fluid-three2{
+    position: absolute;left:1160px;top:2540px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.achieve-fluid-four2{
+    position: absolute;left:1160px;top:2585px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+}
+.achieve-fluid{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.achieve-fluid-two{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+}
+.achieve-fluid-three{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.achieve-fluid-four{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+}
+}
+
+@media (min-width:300px) and (max-width:800px){
+    .heading6{
+        position:absolute;left:50px;top:1010px;width:180px;height:128px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size:15px;
+    }
+    .para6{
+        position:absolute;left:50px;top:1055px;width:180px;height:128px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size:8px;
+        font-weight: bolder;
+    }
+    .svg1{
+        position: absolute;left:180px;top:1025px;
+        width: 2px;height: 10px;
+    }
+    .svg2{
+        position: absolute;left:183px;top:1025px;
+        width: 2px;height: 10px;
+    }
+    .svg3{
+        position: absolute;left:185px;top:1025px;
+        width: 5px;height: 10px;
+    }
+    .achieve-fluid{
+        position: absolute;left:190px;top:1015px;
+        font-size: 10px;
+    }
+    .achieve-fluid-two{
+        position: absolute;left:190px;top:1025px;
+        font-size: 8px;
+        font-weight: bolder;
+    }
+    .svg4{
+        position: absolute;left:220px;top:1055px;
+        width: 2px;height: 10px;
+    }
+    .svg5{
+        position: absolute;left:222.2px;top:1055px;
+        width: 2px;height: 10px;
+    }
+    .svg6{
+        position: absolute;left:224.5px;top:1055px;
+        width: 2px;height: 10px;
+    }
+    .achieve-fluid-three{
+        position: absolute;left:230px;top:1045px;
+        font-size: 10px;
+    }
+    .achieve-fluid-four{
+        position: absolute;left:230px;top:1057px;
+        font-size: 8px;
+        font-weight: bolder;
+    }
+    .svg7{
+        position: absolute;left:80px;top:1100px;
+        width: 10px;height: 4px;
+    }
+    .svg8{
+        position: absolute;left:80px;top:1102.5px;
+        width: 10px;height: 5px;
+    }
+    .svg9{
+        position: absolute;left:85px;top:1109px;
+        width: 5px;height: 3px;
+    }
+    .achieve-fluid-three1{
+        position: absolute;left:100px;top:1090px;
+        font-size: 10px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .achieve-fluid-four1{
+        position: absolute;left:100px;top:1100px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 8px;
+        font-weight:normal;
+    }
+    .svg10{
+        position: absolute;left:200px;top:1100px;
+        width: 5px;height: 5px;
+    }
+    .svg11{
+        position: absolute;left:200px;top:1108px;
+        width: 5px;height: 5px;
+    }
+    .svg12{
+        position: absolute;left:206px;top:1100px;
+        width: 6px;height: 2px;
+    }
+    .svg13{
+        position: absolute;left:206px;top:1103px;
+        width: 6px;height: 2px;
+    }
+    .svg14{
+        position: absolute;left:206px;top:1108px;
+        width: 6px;height: 2px;
+    }
+    .svg15{
+        position: absolute;left:206px;top:1111px;
+        width: 6px;height: 2px;
+    }
+    .achieve-fluid-three2{
+        position: absolute;left:220px;top:1088px;
+        font-size: 10px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .achieve-fluid-four2{
+        position: absolute;left:220px;top:1100px;
+        font-size: 8px;
+        font-weight: normal;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .achieve-fluid{
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .achieve-fluid-two{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: lighter;
+    }
+    .achieve-fluid-three{
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .achieve-fluid-four{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: lighter;
+    }
+
+}
+@media (min-width:360px) and (max-width:900px){
+    .heading6{
+        position:absolute;left:50px;top:1070px;width:180px;height:128px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size:15px;
+    }
+    .para6{
+        position:absolute;left:50px;top:1120px;width:180px;height:128px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size:8px;
+        font-weight: bolder;
+    }
+    .svg1{
+        position: absolute;left:180px;top:1080px;
+        width: 2px;height: 10px;
+    }
+    .svg2{
+        position: absolute;left:183px;top:1080px;
+        width: 2px;height: 10px;
+    }
+    .svg3{
+        position: absolute;left:185px;top:1080px;
+        width: 5px;height: 10px;
+    }
+    .achieve-fluid{
+        position: absolute;left:190px;top:1065px;
+        font-size: 10px;
+    }
+    .achieve-fluid-two{
+        position: absolute;left:190px;top:1075px;
+        font-size: 8px;
+        font-weight: bolder;
+    }
+    .svg4{
+        position: absolute;left:220px;top:1105px;
+        width: 2px;height: 10px;
+    }
+    .svg5{
+        position: absolute;left:222.2px;top:1105px;
+        width: 2px;height: 10px;
+    }
+    .svg6{
+        position: absolute;left:224.5px;top:1105px;
+        width: 2px;height: 10px;
+    }
+    .achieve-fluid-three{
+        position: absolute;left:230px;top:1090px;
+        font-size: 10px;
+    }
+    .achieve-fluid-four{
+        position: absolute;left:230px;top:1100px;
+        font-size: 8px;
+        font-weight: bolder;
+    }
+    .svg7{
+        position: absolute;left:80px;top:1160px;
+        width: 10px;height: 4px;
+    }
+    .svg8{
+        position: absolute;left:80px;top:1162.5px;
+        width: 10px;height: 5px;
+    }
+    .svg9{
+        position: absolute;left:85px;top:1169px;
+        width: 5px;height: 3px;
+    }
+    .achieve-fluid-three1{
+        position: absolute;left:100px;top:1150px;
+        font-size: 10px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .achieve-fluid-four1{
+        position: absolute;left:100px;top:1160px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 8px;
+        font-weight:normal;
+    }
+    .svg10{
+        position: absolute;left:200px;top:1160px;
+        width: 5px;height: 5px;
+    }
+    .svg11{
+        position: absolute;left:200px;top:1168px;
+        width: 5px;height: 5px;
+    }
+    .svg12{
+        position: absolute;left:206px;top:1160px;
+        width: 6px;height: 2px;
+    }
+    .svg13{
+        position: absolute;left:206px;top:1163px;
+        width: 6px;height: 2px;
+    }
+    .svg14{
+        position: absolute;left:206px;top:1168px;
+        width: 6px;height: 2px;
+    }
+    .svg15{
+        position: absolute;left:206px;top:1171px;
+        width: 6px;height: 2px;
+    }
+    .achieve-fluid-three2{
+        position: absolute;left:220px;top:1148px;
+        font-size: 10px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .achieve-fluid-four2{
+        position: absolute;left:220px;top:1160px;
+        font-size: 8px;
+        font-weight: normal;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .achieve-fluid{
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .achieve-fluid-two{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: lighter;
+    }
+    .achieve-fluid-three{
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .achieve-fluid-four{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: lighter;
+    }
+
+}

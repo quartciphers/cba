@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+/* -------------------------------------------------------For Desktop Portion (width - 1366 px)--------------------------------------------------------*/
+
+@media (min-width: 1300px) and (max-width: 1700px) {
+  footer {
+    position: absolute;
+    margin-top: 0vh;
+    left: 0%;
+    width: 100%;
+    background-color: black;
+    height: 8.6%;
+    text-align: center;
+  }
+
+  .logo2 {
+    position: absolute;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 250%;
+    color: white;
+    bottom: 10%;
+    left: 16.5%;
+    text-align: center;
+    margin: auto;
+  }
+  .logo2:hover {
+    cursor: pointer;
+  }
+
+  .logoicon2 {
+    position: absolute;
+    left: 14%;
+    top: 25%;
+    height: 50%;
+    filter: contrast(500%);
+  }
+
+  .dev {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 80%;
+    color: whitesmoke;
+    position: absolute;
+    left: 40%;
+    bottom: 16%;
+  }
+
+  .QClink:link {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* visited link */
+  .QClink:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* mouse over link */
+  .QClink:hover {
+    color: red;
+    text-decoration: none;
+  }
+
+  .icons2 {
+    float: right;
+    list-style-type: none;
+    margin-top: 0.8%;
+    margin-right: 10%;
+    display: flex;
+  }
+
+  img:hover {
+    cursor: pointer;
+  }
+
+  li img {
+    padding: 1em;
+    height: 70%;
+  }
+
+  .dropdown3 {
+    display: none;
+  }
+}
+
+/* -------------------------------------------------------For Desktop Portion (width - 1920 px)--------------------------------------------------------*/
+@media (min-width: 1800px) {
+  footer {
+    position: absolute;
+
+    top: 0vh;
+    left: 0%;
+    width: 100%;
+    background-color: black;
+    height: 10%;
+    text-align: center;
+  }
+
+  .logo2 {
+    position: absolute;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 300%;
+    color: white;
+    bottom: 20.5%;
+    left: 17%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .logo2:hover {
+    cursor: pointer;
+  }
+
+  .logoicon2 {
+    position: absolute;
+    left: 14%;
+    top: 25%;
+    height: 50%;
+  }
+
+  .dev {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 120%;
+    line-height: 110%;
+    color: whitesmoke;
+    position: absolute;
+    left: 37%;
+    bottom: 22%;
+  }
+
+  @-moz-document url-prefix() {
+    .dev {
+      font-family: "Source Sans Pro", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 120%;
+      line-height: 110%;
+      color: whitesmoke;
+      position: absolute;
+      left: 35%;
+      bottom: 22%;
+    }
+  }
+  .icons2 {
+    float: right;
+    list-style-type: none;
+    margin-top: 1%;
+    margin-right: 10%;
+    display: flex;
+  }
+  /* Unvisited link */
+  .QClink:link {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* visited link */
+  .QClink:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* mouse over link */
+  .QClink:hover {
+    color: red;
+    text-decoration: none;
+  }
+
+  li img {
+    padding: 1em;
+    height: 70%;
+  }
+
+  img:hover {
+    cursor: pointer;
+  }
+
+  .dropdown3 {
+    display: none;
+  }
+}
+
+/* -------------------------------------------------------For mobile portrait----------------------------------------------------------- */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  footer {
+    position: absolute;
+    width: 102.3vw;
+    background-color: black;
+    height: 7.5vh;
+    text-align: center;
+    left: 0vw;
+  }
+
+  .logo2 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    left: 6vw;
+    text-align: center;
+  }
+
+  .logo2:hover {
+    cursor: pointer;
+  }
+
+  .logoicon2 {
+    position: absolute;
+    left: 1vw;
+    height: 1rem;
+    top: 2.5vh;
+  }
+
+  .Logo2 {
+    position: absolute;
+    left: 5vw;
+  }
+
+  .dev {
+    font-family: "Source Sans Pro", sans-serif;
+    width: 30vw;
+    font-size: 0.5rem;
+    color: whitesmoke;
+    position: absolute;
+    left: 37vw;
+    bottom: 1vh;
+  }
+
+  .QClink:link {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* visited link */
+  .QClink:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* mouse over link */
+  .QClink:hover {
+    color: red;
+    text-decoration: none;
+  }
+
+  .icons2 {
+    display: none;
+  }
+
+  .dropbtn3 {
+    background-color: black;
+    color: white;
+    font-size: 7px;
+    border: none;
+    position: absolute;
+    right: -30vw;
+    bottom: -4vh;
+  }
+  .dropdown3 {
+    position: absolute;
+    left: 65vw;
+    top: 1vh;
+  }
+  .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #252525;
+    min-width: 35px;
+    z-index: 1;
+    bottom: 100%;
+    left: 20vw;
+  }
+
+  .dropdown-content3 img {
+    list-style-type: none;
+    color: black;
+    padding: 5px 5px;
+    display: block;
+    height: 3vh;
+  }
+
+  .dropdown-content3 img:hover {
+    background-color: rgb(43, 43, 43);
+  }
+
+  .dropdown3:hover .dropdown-content3 {
+    display: block;
+  }
+
+  .dropdown3:hover .dropbtn3 {
+    background-color: #2e2e31;
+  }
+}
+
+/* -------------------------------------------------------For Mobile Landscape -------------------------------------------------------*/
+
+@media (min-width: 481px) and (max-width: 900px) {
+  footer {
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    text-align: center;
+  }
+
+  .logo2 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 5mm;
+    color: white;
+    bottom: 8px;
+    left: 15px;
+    text-align: center;
+
+    padding-top: 20px;
+  }
+
+  .dev {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 7px;
+    color: whitesmoke;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 77px;
+  }
+  .icons2 {
+    display: none;
+  }
+
+  .dropbtn3 {
+    background-color: black;
+    width: 35px;
+    color: white;
+    font-size: 7px;
+    border: none;
+    display: flex;
+    float: right;
+    margin-right: -90px;
+    margin-top: 10px;
+  }
+  .dropdown3 {
+    position: relative;
+    display: inline-block;
+    margin-left: 40px;
+  }
+  .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #252525;
+    min-width: 160px;
+
+    z-index: 1;
+  }
+
+  .dropdown-content3 img {
+    list-style-type: none;
+    color: black;
+    padding: 12px 16px;
+
+    display: block;
+  }
+
+  .dropdown-content3 img:hover {
+    background-color: rgb(43, 43, 43);
+  }
+
+  .dropdown3:hover .dropdown-content3 {
+    display: block;
+  }
+
+  .dropdown3:hover .dropbtn3 {
+    background-color: #2e2e31;
+  }
+}

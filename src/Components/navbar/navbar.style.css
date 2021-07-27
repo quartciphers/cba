@@ -1,0 +1,463 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+
+/* -------------------------------------------------------For Desktop Portion (width - 1366 px)--------------------------------------------------------*/
+
+@media (min-width: 1300px) and (max-width: 1700px) {
+  .head {
+    position: absolute;
+    top: 0%;
+    height: 8.6%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -1.7%;
+    background-color: white;
+    z-index: 10;
+    left: 0%;
+
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color: white;
+    padding: 1em 0;
+    width: 100%;
+  }
+
+  .logo {
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 250%;
+    left: 50%;
+    top: 0.8rem;
+    position: absolute;
+  }
+  .logo:hover {
+    cursor: pointer;
+  }
+
+  .logoicon {
+    position: absolute;
+    height: 70%;
+    left: 46.5%;
+    top: 2.5rem;
+    filter: contrast(200%);
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .navbar {
+    float: left;
+    padding-top: 20px;
+    color: black;
+
+    list-style-type: none;
+    margin-left: 5%;
+    margin-top: 2rem;
+    display: flex;
+  }
+
+  li a {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1em;
+    color: black;
+    font-size: 120%;
+  }
+
+  li a:hover {
+    background: white;
+    cursor: pointer;
+  }
+
+  .icons {
+    float: right;
+    list-style-type: none;
+    margin-right: 8%;
+    display: flex;
+    margin-top: 2.5%;
+  }
+
+  /* social-media-icons for both Navbar nd Footer */
+
+  .social-media-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    padding: 5px;
+  }
+
+  img:hover {
+    cursor: pointer;
+  }
+
+  .dropdown {
+    display: none;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+  .dropdown2 {
+    display: none;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+}
+
+/* -------------------------------------------------------For Desktop Portion (width - 1920 px)--------------------------------------------------------*/
+@media (min-width: 1800px) {
+  .head {
+    position: absolute;
+    top: 0%;
+    height: 12%;
+    width: 101%;
+    margin-left: -1%;
+    margin-top: -1.7%;
+    background-color: white;
+    z-index: 10;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  header {
+    background-color: white;
+    padding: 1em 0;
+    width: 100%;
+  }
+
+  .logo {
+    color: black;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    font-size: 250%;
+    left: 49%;
+    top: 1.5rem;
+    position: absolute;
+  }
+  .logo:hover {
+    cursor: pointer;
+  }
+
+  .logoicon {
+    position: absolute;
+    left: 45%;
+    top: 2.5rem;
+    height: 4rem;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .navbar {
+    float: left;
+    padding-top: 20px;
+    color: black;
+
+    list-style-type: none;
+    margin-left: 5%;
+    margin-top: 2rem;
+
+    display: flex;
+  }
+
+  li a {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1em;
+    color: black;
+    font-size: 120%;
+  }
+
+  li a:hover {
+    background: white;
+    cursor: pointer;
+  }
+
+  .icons {
+    float: right;
+    list-style-type: none;
+    margin-right: 8%;
+    display: flex;
+    margin-top: 2%;
+  }
+
+  /* social-media-icons for both Navbar nd Footer */
+
+  .social-media-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    padding: 7px;
+  }
+
+  img:hover {
+    cursor: pointer;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .dropdown2 {
+    display: none;
+  }
+}
+
+/* -------------------------------------------------------For mobile portrait----------------------------------------------------------- */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .head {
+    position: absolute;
+    top: 0%;
+    height: 3em;
+    width: 100%;
+    background-color: white;
+    padding: 0px;
+    margin-left: -2%;
+    box-sizing: border-box;
+  }
+  /* css of the logo */
+  .logo {
+    color: black;
+    font-weight: bold;
+    font-size: 120%;
+    position: absolute;
+    left: 45%;
+    top: 1.5vh;
+  }
+
+  .logoicon {
+    position: absolute;
+    left: -6vw;
+    top: 1.6rem;
+    height: 1rem;
+  }
+
+  .Logo {
+    position: absolute;
+    left: 45vw;
+    top: 0vh;
+  }
+
+  /* css of the navbar */
+
+  .navbar {
+    display: none;
+  }
+
+  .dropbtn {
+    background-color: white;
+    position: absolute;
+    border: none;
+    left: 7vw;
+    top: 0.6vh;
+    width: 5vw;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+    top: 4vh;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #c4c4da;
+  }
+
+  /* css of the social media icons */
+
+  .icons {
+    display: none;
+  }
+
+  .dropbtn2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    font-size: 10px;
+    border: none;
+    top: 0vh;
+    left: 50vw;
+  }
+  .dropdown2 {
+    position: relative;
+    display: inline-block;
+    margin-left: 30%;
+  }
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+    left: 48vw;
+    top: 4vh;
+  }
+
+  .dropdown-content2 img {
+    list-style-type: none;
+    color: black;
+    padding: 12px 16px;
+
+    display: block;
+  }
+
+  .dropdown-content2 img:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown2:hover .dropdown-content2 {
+    display: block;
+  }
+
+  .dropdown2:hover .dropbtn2 {
+    background-color: #c4c4da;
+  }
+}
+
+/* -------------------------------------------------------For Mobile Landscape -------------------------------------------------------*/
+
+@media (min-width: 481px) and (max-width: 900px) {
+  .head,
+  .navbar {
+    width: 100%;
+  }
+
+  /* css of the logo */
+  .logo {
+    color: black;
+    width: 100%;
+    font-weight: bold;
+    font-size: 10mm;
+    margin-left: 100%;
+    padding-top: 3px;
+    position: absolute;
+  }
+
+  /* css of the navbar */
+
+  .navbar {
+    display: none;
+  }
+
+  .dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 50%;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #c4c4da;
+  }
+
+  /* css of the social media icons */
+
+  .icons {
+    display: none;
+  }
+
+  .dropbtn2 {
+    background-color: white;
+    width: 100%;
+    color: black;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 400%;
+  }
+  .dropdown2 {
+    position: relative;
+    display: inline-block;
+    margin-left: 40px;
+  }
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    margin-left: 400%;
+
+    z-index: 1;
+  }
+
+  .dropdown-content2 img {
+    list-style-type: none;
+    color: black;
+    padding: 12px 16px;
+
+    display: block;
+  }
+
+  .dropdown-content2 img:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown2:hover .dropdown-content2 {
+    display: block;
+  }
+
+  .dropdown2:hover .dropbtn2 {
+    background-color: #c4c4da;
+  }
+}

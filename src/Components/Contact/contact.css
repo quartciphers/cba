@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+.text {
+  width: 100%;
+  height: 120%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+  position: absolute;
+  
+  left: 0px;
+  top:760%;
+  z-index: -1;
+
+  
+  
+  background: #D5FAFC;
+  
+}
+.img2 {
+  position: absolute;
+  top: 6%;
+  left: 13%;
+
+}
+.map {
+  position: absolute;
+  top: 30%;
+  left: 13%;
+  text-align: left;
+  overflow: hidden;
+  background: none!important;
+  height: 60%;
+  width: 45%;
+    
+}
+.map1{
+    border-radius: 10%;
+    width: 76%;
+    height:85%;
+}
+  .txt {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 20%;
+    position: absolute;
+    top: 13%;
+    left: 19.3%;
+font-style: normal;
+font-size: 50px;
+line-height: 55px;
+/* identical to box height, or 133% */
+font-weight:650;
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+  }
+  .p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: normal;
+    position: absolute;
+    top:20%;
+    left:20%;
+  }
+  
+
+
+.name{
+    position: absolute;
+    width: 29%;
+    height: 8%;
+    left: 54%;
+    top: 20%;
+    padding: 0% 2%;
+    background: #D6B1FF;
+    border-radius: 26px;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+border-color: #D6B1FF;
+font-feature-settings: normal;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.mobilenumber {
+    position: absolute;
+    width: 29%;
+    height: 8%;
+    left: 54%;
+    top: 33%;
+    padding: 0% 2%;
+    background: #D6B1FF;
+    border-radius: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+/* identical to box height, or 133% */
+
+  font-feature-settings: 'liga' off;
+  border-color: #D6B1FF;
+  /* Text / Gray 900 */
+
+  color: #18191F;
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+.email{
+    position: absolute;
+    width: 29%;
+    height: 8%;
+    left: 54%;
+    top: 45%;
+    padding: 0% 2%;
+    background: #D6B1FF;
+    border-color: #D6B1FF;
+    border-radius: 26px;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.message{
+    position: absolute;
+    width: 29%;
+    height: 15%;
+    left: 54%;
+    top: 58%;
+    padding: 0% 2%;
+    background: #D6B1FF;
+    border-color: #D6B1FF;
+    border-radius: 25px;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.submit{
+    position: absolute;
+    width: 10%;
+    height: 62px;
+    left: 67%;
+    top: 81%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style:bold;
+    font-weight:600;
+    font-size:100%;
+    border-radius: 10px;
+    border: none;
+    color:whitesmoke;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background: #8C30F5;
+border-radius: 8px;
+
+
+}
+
+.submit:hover {background-color: #7f11fd}
+
+.submit:active {
+  background-color: #8C30F5;
+ 
+  transform: translateY(4px);
+}
+::placeholder{
+    color: 
+    black
+    ;
+}
+
+@media only screen and (min-height: 1080px) and (max-height: 1600px) {
+  .contact {
+    top:  4890px;
+  }
+  .line2{
+    top: 18%;
+  }
+  .map{
+    top:27%;
+  }
+  .submit{
+    top: 76%;
+    left: 64%;
+  }
+  .reach {
+    top: 9%;
+    left: 14.5%;
+  }
+   #footer {
+    top: 380rem;
+  } 
+}
+@media only screen and (min-height: 861px) and (max-height: 1079px) {
+  .contact {
+    top:  4890px;
+  }
+  .reach {
+    top: 8%;
+  }
+  #footer {
+    top: 615vh;
+  } 
+}
+@media only screen and (min-height: 768px) and (max-height: 860px) {
+  .contact {
+    top:  4890px;
+  }
+  .line1{
+    top: 14%;
+  }
+  .submit{
+    top: 76%;
+  }
+  .reach {
+    top: 8%;
+  }
+   #footer {
+    top: 360rem;
+  } 
+}
+@media only screen and (min-height: 601px) and ( max-height: 767px) {
+  .contact {
+    top:  4707px;
+    
+  }
+  .reach {
+    top: 8%;
+  }
+   #footer {
+    top: 1250vh;
+   
+  } 
+}
+@media only screen and (max-height: 600px) and (min-height: 100px){
+  .contact {
+    top:  4810px;
+    
+  }
+  .reach {
+    top: 8%;
+  }
+   #footer {
+    top: 325rem;
+    
+  } 
+} 
+  
+  @media (min-width: 310px) and (max-width: 480px) {
+  
+    /* CSS */
+   
+    .contact {
+      top:  1810px;
+      height: 1100px;
+      width: 100%;
+    }
+    .img2{
+      position: absolute;
+      top:55px;
+      left:45px;
+      width: 26%;
+  }
+  #footer {
+    top: 179rem;
+    width: 100%;
+  } 
+    .txt{
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    position: absolute;
+    top: 59px;
+    left: 100px;
+    font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 31px;
+line-height: 84px;
+/* identical to box height, or 133% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+    }
+    .p {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-weight: normal;
+      position: absolute;
+      top:124px;
+      left:101px
+    }
+    .map{
+      position:absolute;
+      top:200px;left:33px;
+      width:20px;
+      height:20px;
+      position: absolute;;text-align:left;
+      overflow:hidden;background:none!important;height:300px;width:300px;
+      border-radius: 20px;
+  }
+  .map1{
+    border-radius: 20px;
+    height:300px;width:300px;
+  }
+  .name{
+    position: absolute;
+    width: 81%;
+    height: 64px;
+    left: 20px;
+    top: 510px;
+    
+    background: #D6B1FF;
+    border-radius: 25px;
+    font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+font-feature-settings: normal;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.mobilenumber{
+    position: absolute;
+    width: 81%;
+    height: 60px;
+    left: 20px;
+    top: 590px;
+    
+    background: #D6B1FF;
+    border-radius: 25px;
+    font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+border-color:#D6B1FF ;
+
+color: #18191F;
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.email{
+    position: absolute;
+    width: 81%;
+    height: 60px;
+    left: 20px;
+    top: 665px;
+    
+    background: #D6B1FF;
+    border-radius: 25px;
+    font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.message{
+    position: absolute;
+    width: 81%;
+    height: 100px;
+    left: 20px;
+    top: 740px;
+    
+    background: #D6B1FF;
+    border-radius: 25px;
+    font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+font-feature-settings: 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.submit{
+    position: absolute;
+    width: 144px;
+    height: 62px;
+    left: 86px;
+    top:860px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size:1.2em;
+    border-radius: 8px;
+    border: none;
+    color:#D2D3C9;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background: #8C30F5;
+border-radius: 8px;
+
+
+}
+.submit:hover {background-color: #7f11fd}
+
+.submit:active {
+  background-color: #8C30F5;
+ 
+  transform: translateY(4px);
+}
+}

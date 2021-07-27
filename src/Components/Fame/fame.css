@@ -1,0 +1,145 @@
+@media (max-width:1499px) and (min-width:1200px){
+    
+.fame-head{
+    position:absolute;left:150px;top:2650px;width:548px;height:128px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:45px;
+}
+.fameimg1{
+    position:absolute;padding-top: 1840px;padding-left: 150px;
+}
+.fameimg3{
+    position:absolute;padding-top: 1840px;padding-left: 520px;
+}
+.fameimg4{
+    position:absolute;padding-top: 2150px;padding-left: 520px;
+}
+.fameimg2{
+    position:absolute;padding-top: 2480px;padding-left: 150px;
+}
+.fameimg5{
+    position:absolute;padding-top: 2150px;padding-left: 880px;
+}
+.fameimg6{
+    position:absolute;padding-top: 2780px;padding-left: 900px;
+}
+}
+
+@media  (min-width:1920px){
+    .fame-head{
+        position:absolute;left:320px;top:3000px;width:548px;height:128px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size:45px;
+    }
+    .fameimg1{
+        position:absolute;padding-top: 1750px;padding-left: 450px;
+    }
+    .fameimg3{
+        position:absolute;padding-top: 1750px;padding-left: 840px;
+    }
+    .fameimg4{
+        position:absolute;padding-top: 2090px;padding-left: 840px;
+    }
+    .fameimg2{
+        position:absolute;padding-top: 2420px;padding-left: 450px;
+    }
+    .fameimg5{
+        position:absolute;padding-top: 2050px;padding-left: 1180px;
+    }
+    .fameimg6{
+        position:absolute;padding-top: 2700px;padding-left: 1200px;
+    }
+
+}
+
+@media (min-width: 1500px) and (max-width: 1799px){
+    .fame-head{
+        position:absolute;left:220px;top:2700px;width:548px;height:128px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size:45px;
+    }
+    .fameimg1{
+        position:absolute;padding-top: 1750px;padding-left: 250px;
+    }
+    .fameimg3{
+        position:absolute;padding-top: 1750px;padding-left: 640px;
+    }
+    .fameimg4{
+        position:absolute;padding-top: 2090px;padding-left: 640px;
+    }
+    .fameimg2{
+        position:absolute;padding-top: 2410px;padding-left: 250px;
+    }
+    .fameimg5{
+        position:absolute;padding-top: 2100px;padding-left: 980px;
+    }
+    .fameimg6{
+        position:absolute;padding-top: 2740px;padding-left: 1000px;
+    }
+
+}
+
+@media (min-width:300px) and (max-width:800px){
+    .fame-head{
+        position:absolute;left:50px;top:1130px;width:548px;height:128px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size:18px;
+    }
+    .fameimg1{
+        position:absolute;padding-top: 800px;padding-left: 30px;
+        width:100px;height: 140px;
+    }
+    .fameimg3{
+        position:absolute;padding-top: 800px;padding-left: 135px;
+        width: 190px;height: 140px;
+    }
+    .fameimg4{
+        position:absolute;padding-top: 950px;padding-left: 170px;
+        width: 100px;height: 100px;
+    }
+    .fameimg2{
+        position:absolute;padding-top: 950px;padding-left: 20px;
+        width: 150px;height: 200px;
+    }
+    .fameimg5{
+        position:absolute;padding-top: 950px;padding-left: 250px;
+        width: 100px;height: 150px;
+    }
+    .fameimg6{
+        position:absolute;padding-top: 1065px;padding-left: 172px;
+        width: 100px;height: 80px;
+    }
+
+}
+@media (min-width:300px) and (max-width:800px){
+    .fame-head{
+        position:absolute;left:50px;top:1200px;width:548px;height:128px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size:18px;
+    }
+    .fameimg1{
+        position:absolute;padding-top: 800px;padding-left: 30px;
+        width:100px;height: 140px;
+    }
+    .fameimg3{
+        position:absolute;padding-top: 800px;padding-left: 135px;
+        width: 190px;height: 140px;
+    }
+    .fameimg4{
+        position:absolute;padding-top: 950px;padding-left: 170px;
+        width: 100px;height: 100px;
+    }
+    .fameimg2{
+        position:absolute;padding-top: 950px;padding-left: 20px;
+        width: 150px;height: 200px;
+    }
+    .fameimg5{
+        position:absolute;padding-top: 950px;padding-left: 250px;
+        width: 100px;height: 150px;
+    }
+    .fameimg6{
+        position:absolute;padding-top: 1065px;padding-left: 172px;
+        width: 100px;height: 80px;
+    }
+
+}

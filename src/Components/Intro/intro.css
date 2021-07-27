@@ -1,0 +1,310 @@
+body{
+	width: 80%;
+	height: 100%;
+}
+/*────────────────── 
+     Scrollbar
+──────────────────*/
+::-webkit-Scrollbar{
+    width: 5px; 
+	background: rgba(5,5,5,1);
+}
+::-webkit-Scrollbar-thumb{
+	border-radius: 10px;
+	background: black;
+	box-shadow: inset 0 0 20px rgba(245, 245, 245, 0.671);
+}
+::-webkit-Scrollbar-track{
+	margin-top: 80px;
+	border-radius: 10px;
+}
+@media  (max-width:1499px) and (min-width:1200px){
+.intro{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: large;
+}
+.heading{
+    position: absolute;
+    left: 35%;
+    top: 19em;
+    width: 30%;
+    text-align: center;
+}
+.heading-two{
+    position: absolute; left:600px; top:30em;
+}
+.img-fluid{
+    padding-top: 195px;padding-left: 400px;padding-right: 5px;padding-bottom: 5px;
+
+}
+.heading-flex{
+    position: absolute;left:420px;top:930px;
+}
+.heading-flex1{
+    font-size:75%;
+    position:absolute;left:445px;top:960px;
+}
+.img-fluid1{
+    position:absolute;padding-left:750px;top:51em;
+}
+.heading-flex2{
+    position: absolute;left:740px;top:930px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: large;
+}
+.heading-flex3{
+    position: absolute;left: 800px;top:960px;
+	font-size:90%;
+}
+.circle {
+	height: 50px;
+	width: 50px;
+	background-color:#75E3EA;
+	border-radius: 50%;
+	position: absolute;left:1200px;top:720px;
+  }
+.circle1{
+	position: absolute;
+	left: 100px;top:950px;
+	height: 50px;
+	width: 50px;
+	background-color:#FFC278;
+	border-radius: 50%;
+}
+}
+
+/* -------------------------------------------------------For Desktop Portion (width - 1920 px)--------------------------------------------------------*/
+@media (min-width: 1920px) {
+	.intro{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: large;
+	}
+	.heading{
+		position: absolute;
+		left: 40%;
+		top: 31em;
+		width: 25%;
+		text-align: center;
+	}
+	.heading-two{
+		position: absolute; left:680px; top:18em;
+	}
+	.img-fluid{
+		padding-top: 12em;padding-left: 700px;padding-right: 5px;padding-bottom: 5px;
+	}
+	.heading-flex{
+		position: absolute;left:720px;top:77.7em;
+	}
+	.heading-flex1{
+		font-size:75%;
+		position:absolute;left:755px;top:1430px;
+	}
+	.img-fluid1{
+		position:absolute;padding-left:1150px;top:80em;
+	}
+	.heading-flex2{
+		position: absolute;left:1140px;top:1400px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: large;
+	}
+	.heading-flex3{
+		position: absolute;left: 1200px;top:1435px;
+		font-size:90%;
+	}
+	.circle {
+		height: 50px;
+		width: 50px;
+		background-color:#75E3EA;
+		border-radius: 50%;
+		position: absolute;left:1700px;top:1120px;
+	}
+	.circle1{
+		position: absolute;
+		left: 100px;top:1300px;
+		height: 50px;
+		width: 50px;
+		background-color:#FFC278;
+		border-radius: 50%;
+	}
+}
+
+@media (min-width: 1500px) and (max-width: 1799px) {
+	.intro{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: large;
+	}
+	.heading{
+		position: absolute;
+		left: 35%;
+		top: 22em;
+		width: 30%;
+		text-align: center;
+	}
+	.heading-two{
+		position: absolute; left:600px; top:30em;
+	}
+	.img-fluid{
+		padding-top: 160px;padding-left: 460px;padding-right: 5px;padding-bottom: 5px;
+	}
+	.heading-flex{
+		position: absolute;left:480px;top:1020px;
+	}
+	.heading-flex1{
+		font-size:75%;
+		position:absolute;left:510px;top:1050px;
+	}
+	.img-fluid1{
+		position:absolute;padding-left:860px;top:56.3em;
+	}
+	.heading-flex2{
+		position: absolute;left:840px;top:1020px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: large;
+	}
+	.heading-flex3{
+		position: absolute;left: 900px;top:1050px;
+		font-size:90%;
+	}
+	.circle {
+		height: 50px;
+		width: 50px;
+		background-color:#75E3EA;
+		border-radius: 50%;
+		position: absolute;left:1200px;top:800px;
+	  }
+	.circle1{
+		position: absolute;
+		left: 100px;top:950px;
+		height: 50px;
+		width: 50px;
+		background-color:#FFC278;
+		border-radius: 50%;
+	}
+	
+}
+
+@media (min-width:300px) and (max-width:800px){
+	.intro{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: large;
+	}
+	.heading{
+		position: absolute;
+		left: 15.5%;
+		top: 15.5em;
+		width: 70%;
+		font-size: 15px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: bold;
+		text-align: center;
+	}
+	.heading-two{
+		position: absolute; left:600px; top:30em;
+	}
+	.img-fluid{
+		padding-top:255px;padding-left: 28px;padding-right: 5px;padding-bottom: 5px;
+		width:80px;height:80px;
+	}
+	.heading-flex{
+		position: absolute;left:40px;top:345px;
+		width:50%;
+		font-size: 12px;
+	}
+	.heading-flex1{
+		font-size:55%;
+		position:absolute;left:60px;top:360px;
+	}
+	.img-fluid1{
+		position:absolute;padding-left:190px;top:17em;
+		width:80px;height:80px;
+	}
+	.heading-flex2{
+		position: absolute;left:180px;top:345px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12px;
+		width:70%;
+	}
+	.heading-flex3{
+		position: absolute;left: 220px;top:360px;
+		font-size:60%;
+	}
+	.circle {
+		height: 15px;
+		width: 15px;
+		background-color:#75E3EA;
+		border-radius: 50%;
+		position: absolute;left:280px;top:250px;
+	  }
+	.circle1{
+		position: absolute;
+		left: 30px;top:270px;
+		height: 15px;
+		width: 15px;
+		background-color:#FFC278;
+		border-radius: 50%;
+	}
+
+}
+
+@media (min-width:360px) and (max-width:900px){
+	.intro{
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: large;
+	}
+	.heading{
+		position: absolute;
+		left: 25.5%;
+		top: 19.8em;
+		width: 50%;
+		font-size: 15px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: bold;
+		text-align: center;
+	}
+	.heading-two{
+		position: absolute; left:600px; top:30em;
+	}
+	.img-fluid{
+		padding-top:325px;padding-left: 28px;padding-right: 5px;padding-bottom: 5px;
+		width:80px;height:80px;
+	}
+	.heading-flex{
+		position: absolute;left:40px;top:410px;
+		width:50%;
+		font-size: 12px;
+	}
+	.heading-flex1{
+		font-size:55%;
+		position:absolute;left:60px;top:425px;
+	}
+	.img-fluid1{
+		position:absolute;padding-left:190px;top:21.5em;
+		width:80px;height:80px;
+	}
+	.heading-flex2{
+		position: absolute;left:180px;top:410px;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12px;
+		width:70%;
+	}
+	.heading-flex3{
+		position: absolute;left: 220px;top:425px;
+		font-size:60%;
+	}
+	.circle {
+		height: 15px;
+		width: 15px;
+		background-color:#75E3EA;
+		border-radius: 50%;
+		position: absolute;left:280px;top:310px;
+	  }
+	.circle1{
+		position: absolute;
+		left: 20px;top:370px;
+		height: 15px;
+		width: 15px;
+		background-color:#FFC278;
+		border-radius: 50%;
+	}
+
+}
